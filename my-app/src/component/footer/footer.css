@@ -1,0 +1,30 @@
+footer {
+	width: 100%;
+	background-color: rgb(56, 69, 86);
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mediaicons {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li{
+    margin: 10px;
+}
+.mediaicons img{
+    width: 30px;
+    height: 30px;
+}
+.mediaicons a{
+    text-decoration: none;
+    border: none;
+}
+footer .mediaicons a:hover{
+    border-bottom: none;
+}
